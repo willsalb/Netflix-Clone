@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--Framework Owl-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">CINÉFILO-FLIX</h2>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#series">Séries</a>
+                <a href="#filmes">Filmes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal" id="inicio">
+            <div class="container"> <!--Class WRAPPER-->
+                <h3 class="titulo">LΔRΔNJΔ MECÂNICΔ</h3>
+                <p class="descricao">Em uma Inglaterra do futuro, um membro de uma gangue de delinquentes tenta desligar-se, mas é espancado pelos demais e deixado ao abandono para ser apanhado pela polícia. Na prisão, ele é submetido a um tratamento experimental para recuperar criminosos, expondo-os às mazelas que eles mesmos infligiam à sociedade.</p>
+                <div class="botoes">
+                    <button id="clicar"  role="button" class="botao" type="button" onclick="trailer()">
+                        <i class="fa-solid fa-play"></i>
+                        Assistir
+                    </button>
+                    <button role="button" class="botao" id="btn">
+                        <i id="hide2" class="fa-solid fa-plus"></i>
+                        <i id="hide" class="fa-solid fa-play"></i>
+                       Minha Lista
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes" id="filmes">
+        <p class="filmes-recomendados">Filmes Recomendados</p>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme"  src="img/min 1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min10.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min11.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min12.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min13.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min14.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min15.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min16.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min17.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min18.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min19.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/min20.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="carrosel-filmes">
+        <p class="filmes-recomendados">Minha Lista</p>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme"  src="img/minha-lista/minha-lista1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/minha-lista/minha-lista4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/minha-lista/minha-lista6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/minha-lista/minha-lista7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/minha-lista/minha-lista8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/minha-lista/minha-lista9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/minha-lista/minha-lista10.jpg" alt="" srcset="">
+            </div>
+            <div class="item" id="containerImg">
+                <img class="box-filme"  src="img/minha-lista/minha-lista11.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="carrosel-filmes" id="series">
+        <p class="filmes-recomendados">Séries Mais Populares</p>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme"  src="img/series/serie10.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/cfec427f78.js" crossorigin="anonymous"></script>
+
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+
+    <!--Arquivo setup owl-->
+    <script src="js/Owl/setup.js"></script>
+
+    <!--Script Main-->
+    <script src="js/main.js"></script>
+</body>
+</html>
