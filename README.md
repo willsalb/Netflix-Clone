@@ -9,4 +9,3 @@ Uma netflix para cinéfilos
 * https://getbootstrap.com/docs/3.4/css/
 * https://owlcarousel2.github.io/OwlCarousel2/
 * https://htmlcolorcodes.com/
-* https://web.dio.me/lab/recriando-a-interface-do-netflix/learning/8b554446-9be4-4375-b474-3e6523480652
